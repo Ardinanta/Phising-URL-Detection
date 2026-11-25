@@ -6,3 +6,5 @@
 /requirements-lock.txt -text
 /.gitignore -text
 /.gitattributes -text
+# Matplotlib emits whitespace in generated SVG path data; retain exact bytes.
+/research/**/figures/*.svg -whitespace

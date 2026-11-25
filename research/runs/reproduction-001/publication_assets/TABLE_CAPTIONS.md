@@ -89,4 +89,3 @@ Satuan: Selisih proporsi/count; timing ms/1024; versi environment.
 Sumber (relatif run): eksperimen_utama/historical_comparison_full.csv; eksperimen_utama/manifest_eksperimen.json.
 Batas interpretasi: Tidak mengklaim reproducibility sempurna; tidak ada training time historis untuk dibandingkan.
 Rekomendasi bagian: Discussion.
-

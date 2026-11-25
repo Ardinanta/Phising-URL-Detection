@@ -125,4 +125,3 @@ Satuan: FPR dan TPR persen (%); AUC proporsi 0–1.
 Sumber (relatif run): eksperimen_utama/predictions/*_uji.csv.gz; eksperimen_utama/metrik_utama.csv; analysis/performance_comparison.csv.
 Batas interpretasi: C memiliki membership test berbeda. Kurva bukan rekonstruksi dari satu nilai AUC; tidak ada interval ketidakpastian.
 Rekomendasi bagian: Results.
-
