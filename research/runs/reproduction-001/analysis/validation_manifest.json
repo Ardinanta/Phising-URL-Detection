@@ -1,0 +1,450 @@
+{
+  "analysis_status": "PASS",
+  "created_at": "2026-11-25T17:58:39.843939+07:00",
+  "training_executed": false,
+  "checks": [
+    {
+      "check": "sha256 eksperimen_utama/actual_parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/historical_comparison.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/historical_comparison_full.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/independent_host_validation.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/independent_metric_validation.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/manifest_eksperimen.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/metrik_utama.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/LR_A_uji.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/LR_A_val.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/LR_B_uji.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/LR_B_val.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/LR_C_uji.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/LR_C_val.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/RF_A_uji.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/RF_A_val.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/RF_B_uji.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/RF_B_val.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/RF_C_uji.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/predictions/RF_C_val.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/selisih_utama.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 eksperimen_utama/training_log.jsonl",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 02_Eksperimen_Utama.executed.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 EXPERIMENT_REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 02_Eksperimen_Utama.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 stage5_preflight.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sha256 run_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 hasil/audit_struktur_mentah.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 hasil/distribusi_struktur_split.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 hasil/fitur_internal.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 hasil/irisan_domain.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 hasil/manifest_data.json",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 hasil/ringkasan_split.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 split_membership.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 independent_split_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 independent_overlap.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 missing_values.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4 sha256 01_Audit_dan_Split.executed.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "independent_metric_validation.csv all checks PASS",
+      "status": "PASS",
+      "count": 120
+    },
+    {
+      "check": "independent_host_validation.csv all checks PASS",
+      "status": "PASS",
+      "count": 138
+    },
+    {
+      "check": "LR/A/validasi: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "LR/A/uji: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "LR/B/validasi: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "LR/B/uji: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "LR/C/validasi: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "LR/C/uji: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "RF/A/validasi: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "RF/A/uji: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "RF/B/validasi: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "RF/B/uji: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "RF/C/validasi: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "RF/C/uji: predictions membership, counts, threshold and metrics",
+      "status": "PASS"
+    }
+  ],
+  "predictions_files_checked": 12,
+  "historical_non_timing_max_absolute_difference": 0.0,
+  "baseline_team_approval": "pending",
+  "python": "3.13.0",
+  "input_checksums": {
+    "EXPERIMENT_REPORT.md": "f1c2c1cb322ca72f57be6d155f96e6c59dc5f38cd4b781c10c86562f06fbb3d3",
+    "eksperimen_utama/metrik_utama.csv": "6f65294aa25ce49f45aa900f8523cc4bbd8defd8b720feae88bbf763dd535df8",
+    "eksperimen_utama/selisih_utama.csv": "7d4739b2d1cedc5a898446032516f0d2fe712b3a0e79f8546debd434d033809a",
+    "eksperimen_utama/historical_comparison_full.csv": "2413f6ccc2cb76fd94a70e457dd83372a21e3c0070b92c9ae16312b8f0d23fd7",
+    "eksperimen_utama/independent_metric_validation.csv": "7397d50b70299cb2894430474c1389ec07ab8b2746d1ec72e58d79574f946290",
+    "eksperimen_utama/independent_host_validation.csv": "9efce769257f29281ebb373566cae9612805d9a440e7f18e8e49e679e2f1bae5",
+    "eksperimen_utama/actual_parameters.json": "b09062273c822c3dbbb1bfce01867704aadc7009c4295e346be116bd9a5876ca",
+    "eksperimen_utama/manifest_eksperimen.json": "41dc62f1b6e8402a1f3753c4ff7683cd07b67f5bb3f3b03805f09cd80124052e",
+    "split_membership.csv.gz": "9fa7056edd95982ac00adc3bb4e70cbeac6948296c6998cea318d6ca0fe8c8f6",
+    "hasil/ringkasan_split.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+    "hasil/irisan_domain.csv": "5f41932b271af9e6c429e9ac50e962a3b406f4a5255c9a7ea835c6842aa06835",
+    "hasil/audit_struktur_mentah.csv": "cde6d792d8cd93e54e713ebf2c08416d72511b503cfc76fe24258d758db57b4b"
+  },
+  "execution_cells": [
+    {
+      "cell": 2,
+      "status": "ok",
+      "seconds": 10.79217939999944
+    },
+    {
+      "cell": 3,
+      "status": "ok",
+      "seconds": 0.11745859999791719
+    },
+    {
+      "cell": 4,
+      "status": "ok",
+      "seconds": 0.029607800010126084
+    },
+    {
+      "cell": 5,
+      "status": "ok",
+      "seconds": 0.11279149999609217
+    }
+  ],
+  "execution_error": null,
+  "integrity": {
+    "files_checked": 88,
+    "changed": [],
+    "before": {
+      ".gitignore": "cac01a34c217e2c38f66168621002b79d6ea4ab5595e8ee05e7bdead21c0df52",
+      "01_Audit_dan_Split.ipynb": "eb5a99743ea4493cff1fa40765cd19686a0ddae12933f190e43884cd424db881",
+      "02_Eksperimen_dan_Evaluasi.ipynb": "34dc9178350b9ef1b93f6ea549d916313dd83a8d94d8260cbf0ce3cdbe69895b",
+      "README.md": "5138d17374e788b21d06e5fd572936b943f298458fb1a574875ce96f25641f52",
+      "requirements-lock.txt": "b49bafc8e76d16feb0e8b3102873aa66b0ceb779eeda2177d2c8304a9276ceea",
+      "requirements.txt": "e928bcb00461fa4353aaeb3f090873d2f035e73e80d88a50bf70c452c2dd604f",
+      "Dataset\\PhiUSIIL_Phishing_URL_Dataset.csv": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "hasil\\audit_struktur_mentah.csv": "cde6d792d8cd93e54e713ebf2c08416d72511b503cfc76fe24258d758db57b4b",
+      "hasil\\distribusi_struktur_split.csv": "30d8ab84982147c3a0d1cd8c8c260e2035edee958d1709c4969ccacd6a2f4845",
+      "hasil\\irisan_domain.csv": "5f41932b271af9e6c429e9ac50e962a3b406f4a5255c9a7ea835c6842aa06835",
+      "hasil\\manifest_data.json": "fbb984474060ac820d28fdb40268a18ff1a9b89a4629b0d59b3a942df415131e",
+      "hasil\\manifest_eksperimen.json": "26ef94296897b436d76a66990cbf2b6a5ff9977cf10dd4ac5a7379dd16a7ef86",
+      "hasil\\metrik_pembobotan.csv": "f87eb2f76eba60bdea6620170358fd50c0bf5939bf0617a5f034bd128a792ef9",
+      "hasil\\metrik_struktur_pembobotan.csv": "91e036e7b39824043b58af673d460b8ed0a7191e5551b72d5cd88c5767644c59",
+      "hasil\\metrik_struktur_utama.csv": "d57fa3b100d1684789f21081da4df97facd2e9c7e312f14dcc70533fdfbd7105",
+      "hasil\\metrik_utama.csv": "5d7e5d29860dff1b9147815d751838c465b2e59d2884e481e0b167e8cca54635",
+      "hasil\\ringkasan_split.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+      "hasil\\selisih_pembobotan.csv": "4e742e7e3df0c48aa165742018dc842fec9a2594ed5397a15bd020158efdff7b",
+      "hasil\\selisih_utama.csv": "7d4739b2d1cedc5a898446032516f0d2fe712b3a0e79f8546debd434d033809a",
+      "runs\\reproduction-001\\01_Audit_dan_Split.executed.ipynb": "9a79b6ec1b1a354dfbc59433c12bbb735590fb5350fc68ec1ad57f6190f8562b",
+      "runs\\reproduction-001\\01_Audit_dan_Split.ipynb": "eb5a99743ea4493cff1fa40765cd19686a0ddae12933f190e43884cd424db881",
+      "runs\\reproduction-001\\02_Eksperimen_dan_Evaluasi.ipynb": "34dc9178350b9ef1b93f6ea549d916313dd83a8d94d8260cbf0ce3cdbe69895b",
+      "runs\\reproduction-001\\02_Eksperimen_Utama.executed.ipynb": "f2a4959504bd636cdedb5126c497a4e2228ed62ba2913c3a03a444a43b02aa7d",
+      "runs\\reproduction-001\\02_Eksperimen_Utama.ipynb": "93dd1c4e41eb34a69c43ba9fa169809067ed5a55d0d50a93b9227af1e97c00b8",
+      "runs\\reproduction-001\\artifact_checksums.json": "2889916f7a173002c2968bd3e659cf015b778cd807721f0bba2c86ea7814f460",
+      "runs\\reproduction-001\\comparison.csv": "fb940b5fdd6c21a25c4e42a391e7d27b0eccffde7cc8bdc3df9f53197213d158",
+      "runs\\reproduction-001\\EXPERIMENT_REPORT.md": "f1c2c1cb322ca72f57be6d155f96e6c59dc5f38cd4b781c10c86562f06fbb3d3",
+      "runs\\reproduction-001\\historical_integrity_after.json": "99da605bf7c9daef5e4cc5a03b4c52876d5057001e307d14afb15bc71e221dee",
+      "runs\\reproduction-001\\historical_integrity_before.json": "99da605bf7c9daef5e4cc5a03b4c52876d5057001e307d14afb15bc71e221dee",
+      "runs\\reproduction-001\\independent_overlap.csv": "eeaf53922f4194f722b471459260b0e3d026b677f615abec25e86691db384aee",
+      "runs\\reproduction-001\\independent_split_summary.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+      "runs\\reproduction-001\\missing_values.csv": "a068d25dc356cd803d44d15c79141b5805108b1c94be08724901a02b3fdbd9fa",
+      "runs\\reproduction-001\\REPRODUCTION_REPORT.md": "1d469b0f939c7ce7d31289337d7ae6741d391ee29dc6252076bd36edfa5af0d5",
+      "runs\\reproduction-001\\requirements-lock.txt": "b49bafc8e76d16feb0e8b3102873aa66b0ceb779eeda2177d2c8304a9276ceea",
+      "runs\\reproduction-001\\RUNNER_CHANGES.md": "f1caa0fa086116cbba30aadc9577a5da334249e2fe1aa7572ed95000f429a000",
+      "runs\\reproduction-001\\run_manifest.json": "045b035f2865ce640f89e5c9d6e77e5076ab61c63e50c86a185cab35f9f4f062",
+      "runs\\reproduction-001\\split_membership.csv.gz": "9fa7056edd95982ac00adc3bb4e70cbeac6948296c6998cea318d6ca0fe8c8f6",
+      "runs\\reproduction-001\\stage5_integrity_after.json": "92d39c35651c3bef9deb06e6e059c55ba744502ead8363027b0ef25158a0aac2",
+      "runs\\reproduction-001\\stage5_integrity_before.json": "92d39c35651c3bef9deb06e6e059c55ba744502ead8363027b0ef25158a0aac2",
+      "runs\\reproduction-001\\stage5_preflight.json": "f2cb472fa038031644cff2a7c53b3bbf453e041784872b34e49b11c0c96268a0",
+      "runs\\reproduction-001\\stage5_preflight.py": "d8aff346ff67bb2178f703f3bea7a9a13b7411d9116a7530c23fd553bed800f4",
+      "runs\\reproduction-001\\stage5_runner_checks.json": "210ee279a898c7229547ecce3a24815fe4df9a822e4c87c0434a0b7724215782",
+      "runs\\reproduction-001\\validation_results.json": "7f0c8d7cc0dc353e8a2fb05ac2293e471bd874736cdc0c533a1baca68adb35d9",
+      "runs\\reproduction-001\\Dataset\\PhiUSIIL_Phishing_URL_Dataset.csv": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "runs\\reproduction-001\\eksperimen_utama\\actual_parameters.json": "b09062273c822c3dbbb1bfce01867704aadc7009c4295e346be116bd9a5876ca",
+      "runs\\reproduction-001\\eksperimen_utama\\artifact_checksums.json": "d27f5cdf6721a1fe982e9fdd44a57d10b68bf489e525beb847318d730c97fbe4",
+      "runs\\reproduction-001\\eksperimen_utama\\historical_comparison.csv": "0e855fe454a50ea5acf17826b086ae3ddf87a14f1cc67a6d9cbb52d1b19de8f9",
+      "runs\\reproduction-001\\eksperimen_utama\\historical_comparison_full.csv": "2413f6ccc2cb76fd94a70e457dd83372a21e3c0070b92c9ae16312b8f0d23fd7",
+      "runs\\reproduction-001\\eksperimen_utama\\independent_host_validation.csv": "9efce769257f29281ebb373566cae9612805d9a440e7f18e8e49e679e2f1bae5",
+      "runs\\reproduction-001\\eksperimen_utama\\independent_metric_validation.csv": "7397d50b70299cb2894430474c1389ec07ab8b2746d1ec72e58d79574f946290",
+      "runs\\reproduction-001\\eksperimen_utama\\manifest_eksperimen.json": "41dc62f1b6e8402a1f3753c4ff7683cd07b67f5bb3f3b03805f09cd80124052e",
+      "runs\\reproduction-001\\eksperimen_utama\\metrik_utama.csv": "6f65294aa25ce49f45aa900f8523cc4bbd8defd8b720feae88bbf763dd535df8",
+      "runs\\reproduction-001\\eksperimen_utama\\selisih_utama.csv": "7d4739b2d1cedc5a898446032516f0d2fe712b3a0e79f8546debd434d033809a",
+      "runs\\reproduction-001\\eksperimen_utama\\training_log.jsonl": "99774c728b912d3297a25266d2ea498cb9d3c83d6b8cbb26ea283f46427d58f9",
+      "runs\\reproduction-001\\hasil\\audit_struktur_mentah.csv": "cde6d792d8cd93e54e713ebf2c08416d72511b503cfc76fe24258d758db57b4b",
+      "runs\\reproduction-001\\hasil\\distribusi_struktur_split.csv": "30d8ab84982147c3a0d1cd8c8c260e2035edee958d1709c4969ccacd6a2f4845",
+      "runs\\reproduction-001\\hasil\\fitur_internal.csv.gz": "e7678de14cae2ed296d22d2b2644196af551ae12550dab5170413ce000ea3d8a",
+      "runs\\reproduction-001\\hasil\\irisan_domain.csv": "5f41932b271af9e6c429e9ac50e962a3b406f4a5255c9a7ea835c6842aa06835",
+      "runs\\reproduction-001\\hasil\\manifest_data.json": "2c1fd89f03e067382c1a9f903219f55ecaa2ae645b948f8503e3889593be9b8b",
+      "runs\\reproduction-001\\hasil\\ringkasan_split.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+      "runs\\reproduction-001\\stage5_execution\\artifact_inventory.csv": "6cbd0474239f314a525947a5b09ed870e9315e046eaf7e256f310562877c88a0",
+      "runs\\reproduction-001\\stage5_execution\\authorization.json": "e6ee2e06abd315e878a220e2cc336094f556dbc86bdd4e85daae7e655b8cc944",
+      "runs\\reproduction-001\\stage5_execution\\before_EXPERIMENT_REPORT.md": "a2746c4ed33fb2572e55f98c263e3f60a77a7c1ff9a3c6e9b7a1c9683e12d7a1",
+      "runs\\reproduction-001\\stage5_execution\\before_run_manifest.json": "697e5ce544f4e9cd25967cc95809eb500dcbec68bc10589a10e5ba432a6b79c5",
+      "runs\\reproduction-001\\stage5_execution\\before_stage5_preflight.json": "f2cb472fa038031644cff2a7c53b3bbf453e041784872b34e49b11c0c96268a0",
+      "runs\\reproduction-001\\stage5_execution\\execution_status.json": "ba23433ba55d5fb8f2dab99ee0feccb83f993ab87ed7cf1bac836ce12b10d3c1",
+      "runs\\reproduction-001\\stage5_execution\\integrity_after.json": "925991dbc308c8865217f95c91e102d8d2ceefc7fac830da551785daec5dabb2",
+      "runs\\reproduction-001\\stage5_execution\\integrity_after_execution.json": "0a823646573f7a24ebba0e3997c8c342d6a951a2b2d7da7251361fc89a4a8e29",
+      "runs\\reproduction-001\\stage5_execution\\integrity_before.json": "0a823646573f7a24ebba0e3997c8c342d6a951a2b2d7da7251361fc89a4a8e29",
+      "runs\\reproduction-001\\stage5_execution\\preflight_stdout.txt": "37aecf0c2e8afa287c62006251009d36dfb34df2d165a2e8d98e6d980d32a3de",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_A_uji.csv.gz": "33fd4dfec48829bf51fd20cd84828c909b654c0e4bb3244006f03b76782fae00",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_A_val.csv.gz": "b364cad29df0ec825d01f9bed6e6bd1e83211f6083d93395b475b5e10f844162",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_B_uji.csv.gz": "2d30ea52a5873f2119e6fac6ec2cd2dd0d8731cda7a959d65ac7b9398538bca4",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_B_val.csv.gz": "3b3282531b44efc5f0c50b3f0f78ece8b0b1952738ad2895069d774d61a8b604",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_C_uji.csv.gz": "3a1b54f022b00a0ee96b31b09f6c3841ad7bba368e776d6d3ab4f06f3ad73357",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_C_val.csv.gz": "eb30caf250babf8f11cdd154cca9a8decd1e9c6254b83cff5ac0d1843a7fb8e6",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_A_uji.csv.gz": "0551bacf6ab6cd5270b502c4ea1ad29685dd36413b57660368abd30e6ad4454e",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_A_val.csv.gz": "8f3098040d345dfd60256d56feb95733cd97c7da8ea5a89b772d9bf552503e5d",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_B_uji.csv.gz": "dee762ac8292eb0b8546b92e9aaab07a76a84903d14f1b31dd6bb731d94663b9",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_B_val.csv.gz": "aa805022331152068265b5a555bfab13af8375b53dce295aea48a4525d48de2d",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_C_uji.csv.gz": "a5e7b7136be1dfc9ce6febff51e0f1c214e69bb867f2b08186009698bcb00652",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_C_val.csv.gz": "164ab8f0a95e79510293cf90b724b4bb00355096d088a4e647c38d700d6693ee",
+      "docs\\audit\\BASELINE_DECISION.md": "1fe9d25ecfc408583a76e6570db3ddd77c4ac1383e12a62255f04a49063e38d8",
+      "docs\\audit\\BASELINE_VALIDATION.md": "966e63143f7591f186dea6d6121c5cb6f64766210738e21466caa9fb573b0a5e",
+      "docs\\audit\\ENVIRONMENT_SETUP.md": "fda69b573f3fabaff95a26282c052a1740b93227e57f59d2a71d61e1bdbe6419",
+      "docs\\audit\\experiment_feature_sets.csv": "f6ef2700e9f34bcc917e71304c1b92151826b4eac5e8407bbd301f9ae9c2b494",
+      "docs\\audit\\FEATURE_AUDIT.md": "cc10f1126cd3ef34587ab8bc28ecf1c607c8d4dff8f59ed432e76b733eab35af",
+      "docs\\audit\\feature_registry.csv": "8020068d843cff1da1131fb005c153b2e43bc5c7f4457de335f5dfe69fc30ae7"
+    },
+    "after": {
+      ".gitignore": "cac01a34c217e2c38f66168621002b79d6ea4ab5595e8ee05e7bdead21c0df52",
+      "01_Audit_dan_Split.ipynb": "eb5a99743ea4493cff1fa40765cd19686a0ddae12933f190e43884cd424db881",
+      "02_Eksperimen_dan_Evaluasi.ipynb": "34dc9178350b9ef1b93f6ea549d916313dd83a8d94d8260cbf0ce3cdbe69895b",
+      "README.md": "5138d17374e788b21d06e5fd572936b943f298458fb1a574875ce96f25641f52",
+      "requirements-lock.txt": "b49bafc8e76d16feb0e8b3102873aa66b0ceb779eeda2177d2c8304a9276ceea",
+      "requirements.txt": "e928bcb00461fa4353aaeb3f090873d2f035e73e80d88a50bf70c452c2dd604f",
+      "Dataset\\PhiUSIIL_Phishing_URL_Dataset.csv": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "hasil\\audit_struktur_mentah.csv": "cde6d792d8cd93e54e713ebf2c08416d72511b503cfc76fe24258d758db57b4b",
+      "hasil\\distribusi_struktur_split.csv": "30d8ab84982147c3a0d1cd8c8c260e2035edee958d1709c4969ccacd6a2f4845",
+      "hasil\\irisan_domain.csv": "5f41932b271af9e6c429e9ac50e962a3b406f4a5255c9a7ea835c6842aa06835",
+      "hasil\\manifest_data.json": "fbb984474060ac820d28fdb40268a18ff1a9b89a4629b0d59b3a942df415131e",
+      "hasil\\manifest_eksperimen.json": "26ef94296897b436d76a66990cbf2b6a5ff9977cf10dd4ac5a7379dd16a7ef86",
+      "hasil\\metrik_pembobotan.csv": "f87eb2f76eba60bdea6620170358fd50c0bf5939bf0617a5f034bd128a792ef9",
+      "hasil\\metrik_struktur_pembobotan.csv": "91e036e7b39824043b58af673d460b8ed0a7191e5551b72d5cd88c5767644c59",
+      "hasil\\metrik_struktur_utama.csv": "d57fa3b100d1684789f21081da4df97facd2e9c7e312f14dcc70533fdfbd7105",
+      "hasil\\metrik_utama.csv": "5d7e5d29860dff1b9147815d751838c465b2e59d2884e481e0b167e8cca54635",
+      "hasil\\ringkasan_split.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+      "hasil\\selisih_pembobotan.csv": "4e742e7e3df0c48aa165742018dc842fec9a2594ed5397a15bd020158efdff7b",
+      "hasil\\selisih_utama.csv": "7d4739b2d1cedc5a898446032516f0d2fe712b3a0e79f8546debd434d033809a",
+      "runs\\reproduction-001\\01_Audit_dan_Split.executed.ipynb": "9a79b6ec1b1a354dfbc59433c12bbb735590fb5350fc68ec1ad57f6190f8562b",
+      "runs\\reproduction-001\\01_Audit_dan_Split.ipynb": "eb5a99743ea4493cff1fa40765cd19686a0ddae12933f190e43884cd424db881",
+      "runs\\reproduction-001\\02_Eksperimen_dan_Evaluasi.ipynb": "34dc9178350b9ef1b93f6ea549d916313dd83a8d94d8260cbf0ce3cdbe69895b",
+      "runs\\reproduction-001\\02_Eksperimen_Utama.executed.ipynb": "f2a4959504bd636cdedb5126c497a4e2228ed62ba2913c3a03a444a43b02aa7d",
+      "runs\\reproduction-001\\02_Eksperimen_Utama.ipynb": "93dd1c4e41eb34a69c43ba9fa169809067ed5a55d0d50a93b9227af1e97c00b8",
+      "runs\\reproduction-001\\artifact_checksums.json": "2889916f7a173002c2968bd3e659cf015b778cd807721f0bba2c86ea7814f460",
+      "runs\\reproduction-001\\comparison.csv": "fb940b5fdd6c21a25c4e42a391e7d27b0eccffde7cc8bdc3df9f53197213d158",
+      "runs\\reproduction-001\\EXPERIMENT_REPORT.md": "f1c2c1cb322ca72f57be6d155f96e6c59dc5f38cd4b781c10c86562f06fbb3d3",
+      "runs\\reproduction-001\\historical_integrity_after.json": "99da605bf7c9daef5e4cc5a03b4c52876d5057001e307d14afb15bc71e221dee",
+      "runs\\reproduction-001\\historical_integrity_before.json": "99da605bf7c9daef5e4cc5a03b4c52876d5057001e307d14afb15bc71e221dee",
+      "runs\\reproduction-001\\independent_overlap.csv": "eeaf53922f4194f722b471459260b0e3d026b677f615abec25e86691db384aee",
+      "runs\\reproduction-001\\independent_split_summary.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+      "runs\\reproduction-001\\missing_values.csv": "a068d25dc356cd803d44d15c79141b5805108b1c94be08724901a02b3fdbd9fa",
+      "runs\\reproduction-001\\REPRODUCTION_REPORT.md": "1d469b0f939c7ce7d31289337d7ae6741d391ee29dc6252076bd36edfa5af0d5",
+      "runs\\reproduction-001\\requirements-lock.txt": "b49bafc8e76d16feb0e8b3102873aa66b0ceb779eeda2177d2c8304a9276ceea",
+      "runs\\reproduction-001\\RUNNER_CHANGES.md": "f1caa0fa086116cbba30aadc9577a5da334249e2fe1aa7572ed95000f429a000",
+      "runs\\reproduction-001\\run_manifest.json": "045b035f2865ce640f89e5c9d6e77e5076ab61c63e50c86a185cab35f9f4f062",
+      "runs\\reproduction-001\\split_membership.csv.gz": "9fa7056edd95982ac00adc3bb4e70cbeac6948296c6998cea318d6ca0fe8c8f6",
+      "runs\\reproduction-001\\stage5_integrity_after.json": "92d39c35651c3bef9deb06e6e059c55ba744502ead8363027b0ef25158a0aac2",
+      "runs\\reproduction-001\\stage5_integrity_before.json": "92d39c35651c3bef9deb06e6e059c55ba744502ead8363027b0ef25158a0aac2",
+      "runs\\reproduction-001\\stage5_preflight.json": "f2cb472fa038031644cff2a7c53b3bbf453e041784872b34e49b11c0c96268a0",
+      "runs\\reproduction-001\\stage5_preflight.py": "d8aff346ff67bb2178f703f3bea7a9a13b7411d9116a7530c23fd553bed800f4",
+      "runs\\reproduction-001\\stage5_runner_checks.json": "210ee279a898c7229547ecce3a24815fe4df9a822e4c87c0434a0b7724215782",
+      "runs\\reproduction-001\\validation_results.json": "7f0c8d7cc0dc353e8a2fb05ac2293e471bd874736cdc0c533a1baca68adb35d9",
+      "runs\\reproduction-001\\Dataset\\PhiUSIIL_Phishing_URL_Dataset.csv": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "runs\\reproduction-001\\eksperimen_utama\\actual_parameters.json": "b09062273c822c3dbbb1bfce01867704aadc7009c4295e346be116bd9a5876ca",
+      "runs\\reproduction-001\\eksperimen_utama\\artifact_checksums.json": "d27f5cdf6721a1fe982e9fdd44a57d10b68bf489e525beb847318d730c97fbe4",
+      "runs\\reproduction-001\\eksperimen_utama\\historical_comparison.csv": "0e855fe454a50ea5acf17826b086ae3ddf87a14f1cc67a6d9cbb52d1b19de8f9",
+      "runs\\reproduction-001\\eksperimen_utama\\historical_comparison_full.csv": "2413f6ccc2cb76fd94a70e457dd83372a21e3c0070b92c9ae16312b8f0d23fd7",
+      "runs\\reproduction-001\\eksperimen_utama\\independent_host_validation.csv": "9efce769257f29281ebb373566cae9612805d9a440e7f18e8e49e679e2f1bae5",
+      "runs\\reproduction-001\\eksperimen_utama\\independent_metric_validation.csv": "7397d50b70299cb2894430474c1389ec07ab8b2746d1ec72e58d79574f946290",
+      "runs\\reproduction-001\\eksperimen_utama\\manifest_eksperimen.json": "41dc62f1b6e8402a1f3753c4ff7683cd07b67f5bb3f3b03805f09cd80124052e",
+      "runs\\reproduction-001\\eksperimen_utama\\metrik_utama.csv": "6f65294aa25ce49f45aa900f8523cc4bbd8defd8b720feae88bbf763dd535df8",
+      "runs\\reproduction-001\\eksperimen_utama\\selisih_utama.csv": "7d4739b2d1cedc5a898446032516f0d2fe712b3a0e79f8546debd434d033809a",
+      "runs\\reproduction-001\\eksperimen_utama\\training_log.jsonl": "99774c728b912d3297a25266d2ea498cb9d3c83d6b8cbb26ea283f46427d58f9",
+      "runs\\reproduction-001\\hasil\\audit_struktur_mentah.csv": "cde6d792d8cd93e54e713ebf2c08416d72511b503cfc76fe24258d758db57b4b",
+      "runs\\reproduction-001\\hasil\\distribusi_struktur_split.csv": "30d8ab84982147c3a0d1cd8c8c260e2035edee958d1709c4969ccacd6a2f4845",
+      "runs\\reproduction-001\\hasil\\fitur_internal.csv.gz": "e7678de14cae2ed296d22d2b2644196af551ae12550dab5170413ce000ea3d8a",
+      "runs\\reproduction-001\\hasil\\irisan_domain.csv": "5f41932b271af9e6c429e9ac50e962a3b406f4a5255c9a7ea835c6842aa06835",
+      "runs\\reproduction-001\\hasil\\manifest_data.json": "2c1fd89f03e067382c1a9f903219f55ecaa2ae645b948f8503e3889593be9b8b",
+      "runs\\reproduction-001\\hasil\\ringkasan_split.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+      "runs\\reproduction-001\\stage5_execution\\artifact_inventory.csv": "6cbd0474239f314a525947a5b09ed870e9315e046eaf7e256f310562877c88a0",
+      "runs\\reproduction-001\\stage5_execution\\authorization.json": "e6ee2e06abd315e878a220e2cc336094f556dbc86bdd4e85daae7e655b8cc944",
+      "runs\\reproduction-001\\stage5_execution\\before_EXPERIMENT_REPORT.md": "a2746c4ed33fb2572e55f98c263e3f60a77a7c1ff9a3c6e9b7a1c9683e12d7a1",
+      "runs\\reproduction-001\\stage5_execution\\before_run_manifest.json": "697e5ce544f4e9cd25967cc95809eb500dcbec68bc10589a10e5ba432a6b79c5",
+      "runs\\reproduction-001\\stage5_execution\\before_stage5_preflight.json": "f2cb472fa038031644cff2a7c53b3bbf453e041784872b34e49b11c0c96268a0",
+      "runs\\reproduction-001\\stage5_execution\\execution_status.json": "ba23433ba55d5fb8f2dab99ee0feccb83f993ab87ed7cf1bac836ce12b10d3c1",
+      "runs\\reproduction-001\\stage5_execution\\integrity_after.json": "925991dbc308c8865217f95c91e102d8d2ceefc7fac830da551785daec5dabb2",
+      "runs\\reproduction-001\\stage5_execution\\integrity_after_execution.json": "0a823646573f7a24ebba0e3997c8c342d6a951a2b2d7da7251361fc89a4a8e29",
+      "runs\\reproduction-001\\stage5_execution\\integrity_before.json": "0a823646573f7a24ebba0e3997c8c342d6a951a2b2d7da7251361fc89a4a8e29",
+      "runs\\reproduction-001\\stage5_execution\\preflight_stdout.txt": "37aecf0c2e8afa287c62006251009d36dfb34df2d165a2e8d98e6d980d32a3de",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_A_uji.csv.gz": "33fd4dfec48829bf51fd20cd84828c909b654c0e4bb3244006f03b76782fae00",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_A_val.csv.gz": "b364cad29df0ec825d01f9bed6e6bd1e83211f6083d93395b475b5e10f844162",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_B_uji.csv.gz": "2d30ea52a5873f2119e6fac6ec2cd2dd0d8731cda7a959d65ac7b9398538bca4",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_B_val.csv.gz": "3b3282531b44efc5f0c50b3f0f78ece8b0b1952738ad2895069d774d61a8b604",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_C_uji.csv.gz": "3a1b54f022b00a0ee96b31b09f6c3841ad7bba368e776d6d3ab4f06f3ad73357",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\LR_C_val.csv.gz": "eb30caf250babf8f11cdd154cca9a8decd1e9c6254b83cff5ac0d1843a7fb8e6",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_A_uji.csv.gz": "0551bacf6ab6cd5270b502c4ea1ad29685dd36413b57660368abd30e6ad4454e",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_A_val.csv.gz": "8f3098040d345dfd60256d56feb95733cd97c7da8ea5a89b772d9bf552503e5d",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_B_uji.csv.gz": "dee762ac8292eb0b8546b92e9aaab07a76a84903d14f1b31dd6bb731d94663b9",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_B_val.csv.gz": "aa805022331152068265b5a555bfab13af8375b53dce295aea48a4525d48de2d",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_C_uji.csv.gz": "a5e7b7136be1dfc9ce6febff51e0f1c214e69bb867f2b08186009698bcb00652",
+      "runs\\reproduction-001\\eksperimen_utama\\predictions\\RF_C_val.csv.gz": "164ab8f0a95e79510293cf90b724b4bb00355096d088a4e647c38d700d6693ee",
+      "docs\\audit\\BASELINE_DECISION.md": "1fe9d25ecfc408583a76e6570db3ddd77c4ac1383e12a62255f04a49063e38d8",
+      "docs\\audit\\BASELINE_VALIDATION.md": "966e63143f7591f186dea6d6121c5cb6f64766210738e21466caa9fb573b0a5e",
+      "docs\\audit\\ENVIRONMENT_SETUP.md": "fda69b573f3fabaff95a26282c052a1740b93227e57f59d2a71d61e1bdbe6419",
+      "docs\\audit\\experiment_feature_sets.csv": "f6ef2700e9f34bcc917e71304c1b92151826b4eac5e8407bbd301f9ae9c2b494",
+      "docs\\audit\\FEATURE_AUDIT.md": "cc10f1126cd3ef34587ab8bc28ecf1c607c8d4dff8f59ed432e76b733eab35af",
+      "docs\\audit\\feature_registry.csv": "8020068d843cff1da1131fb005c153b2e43bc5c7f4457de335f5dfe69fc30ae7"
+    }
+  },
+  "output_checksums": {
+    "ANALYSIS_REPORT.md": "111b3362a2d13f9ae691f76439b24bb4f21d0759d2ccedd6e6aac4c55cf82551",
+    "analysis_results.ipynb": "d54921bfd95d55d25367134e000a253fc9c0515f36a2dc256e75423511153979",
+    "CLAIM_EVIDENCE_MATRIX.md": "e3f3a139c97c95f1787092b2507a53997087725c2ee34cfb7fdfb5d710c4a0f8",
+    "efficiency_analysis.csv": "5f6c8632c51abebff42d5a4f5b970ec3120d2249cdbf6349984206ebce0187d0",
+    "error_analysis.csv": "a123412ea8f339cf10b3c411ad096113f7f35205477e29849d23561520b56c7e",
+    "LIMITATIONS.md": "26a858b9b8a415a9f690f1f7ee12d8bd02367925e3286a1e490a7aab4f58d416",
+    "performance_comparison.csv": "f7cb43d41ea052e33d788bf53654e042e188bb4dade82b218a7ab332825d7cd4",
+    "RESEARCH_QUESTION_ANSWERS.md": "95cd92ab6a65acbccafca2f7a45eac3387c3473b04eddad32068ac25c147b0d2",
+    "scenario_deltas.csv": "c005d02668f49d4f8c17a66fa2302e9dd50029d153fa858bec6e0b737be345fb"
+  },
+  "editorial_verification": "LR B-A delta FN=204-12=192; corrected narrative, CSV calculations unchanged"
+}
