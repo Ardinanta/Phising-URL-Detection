@@ -1,0 +1,15 @@
+{
+  "authorized": true,
+  "scope": [
+    "LR/A",
+    "LR/B",
+    "LR/C",
+    "RF/A",
+    "RF/B",
+    "RF/C"
+  ],
+  "basis": "Explicit user message authorizing historical reproduction and activation of guard",
+  "baseline_team_approval": "pending; not implied by user training authorization",
+  "recorded_at": "2026-11-25T17:45:34.043557+07:00",
+  "guard": "reproduction-001-six-main"
+}

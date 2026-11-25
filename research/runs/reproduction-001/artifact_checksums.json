@@ -1,0 +1,13 @@
+{
+  "hasil/audit_struktur_mentah.csv": "cde6d792d8cd93e54e713ebf2c08416d72511b503cfc76fe24258d758db57b4b",
+  "hasil/distribusi_struktur_split.csv": "30d8ab84982147c3a0d1cd8c8c260e2035edee958d1709c4969ccacd6a2f4845",
+  "hasil/fitur_internal.csv.gz": "e7678de14cae2ed296d22d2b2644196af551ae12550dab5170413ce000ea3d8a",
+  "hasil/irisan_domain.csv": "5f41932b271af9e6c429e9ac50e962a3b406f4a5255c9a7ea835c6842aa06835",
+  "hasil/manifest_data.json": "2c1fd89f03e067382c1a9f903219f55ecaa2ae645b948f8503e3889593be9b8b",
+  "hasil/ringkasan_split.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+  "split_membership.csv.gz": "9fa7056edd95982ac00adc3bb4e70cbeac6948296c6998cea318d6ca0fe8c8f6",
+  "independent_split_summary.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+  "independent_overlap.csv": "eeaf53922f4194f722b471459260b0e3d026b677f615abec25e86691db384aee",
+  "missing_values.csv": "a068d25dc356cd803d44d15c79141b5805108b1c94be08724901a02b3fdbd9fa",
+  "01_Audit_dan_Split.executed.ipynb": "9a79b6ec1b1a354dfbc59433c12bbb735590fb5350fc68ec1ad57f6190f8562b"
+}

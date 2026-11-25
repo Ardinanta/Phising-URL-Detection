@@ -1,0 +1,39 @@
+nama_fitur,kategori,A,B,C,sumber,perhitungan,fitur_asli_terkait,bukti,catatan
+panjang_url,URL lexical hasil ekstraksi,1,1,1,URL,len(url),URLLength,N1 cell 2 dan 4; N2 cell 6,"Panjang teks asli; Unicode dihitung sebagai karakter Python, bukan byte."
+panjang_host,URL lexical hasil ekstraksi,1,1,1,URL,len(host),DomainLength,N1 cell 2 dan 4; N2 cell 6,"Host tanpa titik akhir, IDNA ASCII; belum tentu domain sumber atau domain terdaftar."
+panjang_path,URL lexical hasil ekstraksi,1,1,1,URL,len(parsed.path),tidak ada,N1 cell 2 dan 4; N2 cell 6,Path belum di-percent-decode.
+panjang_query,URL lexical hasil ekstraksi,1,1,1,URL,len(parsed.query),tidak ada,N1 cell 2 dan 4; N2 cell 6,Query tanpa tanda ?; belum di-decode.
+titik_host,URL lexical hasil ekstraksi,1,1,1,URL,"host.count(""."")",NoOfSubDomain: bukan pengganti setara,N1 cell 2 dan 4; N2 cell 6,Jumlah titik host bukan jumlah subdomain; PSL tidak dipakai menghitung fitur ini.
+huruf_url,URL lexical hasil ekstraksi,1,1,1,URL,sum(c.isalpha() for c in url),NoOfLettersInURL,N1 cell 2 dan 4; N2 cell 6,isalpha mencakup Unicode; aturan sumber belum diketahui.
+angka_url,URL lexical hasil ekstraksi,1,1,1,URL,sum(c.isdigit() for c in url),NoOfDegitsInURL,N1 cell 2 dan 4; N2 cell 6,isdigit mencakup Unicode; bukan hanya ASCII 0-9.
+karakter_lain,URL lexical hasil ekstraksi,1,1,1,URL,len(url)-huruf_url-angka_url,NoOfOtherSpecialCharsInURL: kesetaraan belum terbukti,N1 cell 2 dan 4; N2 cell 6,"Mencakup seluruh karakter nonhuruf/nondigit, termasuk delimiter."
+strip_host,URL lexical hasil ekstraksi,1,1,1,URL,"host.count(""-"")",tidak ada,N1 cell 2 dan 4; N2 cell 6,Hanya host; punycode dapat menambah strip.
+segmen_path,URL lexical hasil ekstraksi,1,1,1,URL,"len([s for s in path.split(""/"") if s])",tidak ada,N1 cell 2 dan 4; N2 cell 6,Segmen kosong diabaikan; tidak menormalisasi dot-segments.
+persen_url,URL lexical hasil ekstraksi,1,1,1,URL,"url.count(""%"")",NoOfObfuscatedChar/HasObfuscation: bukan pengganti setara,N1 cell 2 dan 4; N2 cell 6,"Menghitung %, bukan jumlah karakter obfuscated; escape invalid tetap terhitung."
+sama_dengan_query,URL lexical hasil ekstraksi,1,1,1,URL,"query.count(""="")",NoOfEqualsInURL: cakupan berbeda,N1 cell 2 dan 4; N2 cell 6,Hanya query; bukan seluruh URL.
+ampersand_query,URL lexical hasil ekstraksi,1,1,1,URL,"query.count(""&"")",NoOfAmpersandInURL: cakupan berbeda,N1 cell 2 dan 4; N2 cell 6,Hanya query; bukan seluruh URL.
+https,URL lexical hasil ekstraksi,1,1,1,URL,"int(parsed.scheme == ""https"")",IsHTTPS,N1 cell 2 dan 4; N2 cell 6,Tidak memeriksa TLS aktual; hanya scheme hasil parser.
+host_ip,URL lexical hasil ekstraksi,1,1,1,URL,"1 jika ip_address(host) berhasil, selain itu 0",IsDomainIP,N1 cell 2 dan 4; N2 cell 6,Semantik parser IP dan normalisasi host lokal; ekuivalensi sumber belum diuji.
+LineOfCode,webpage CSV,1,0,0,LineOfCode,Nilai CSV langsung; imputasi median train dalam pipeline,LineOfCode,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+LargestLineLength,webpage CSV,1,0,0,LargestLineLength,Nilai CSV langsung; imputasi median train dalam pipeline,LargestLineLength,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasTitle,webpage CSV,1,0,0,HasTitle,Nilai CSV langsung; imputasi median train dalam pipeline,HasTitle,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasFavicon,webpage CSV,1,0,0,HasFavicon,Nilai CSV langsung; imputasi median train dalam pipeline,HasFavicon,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+Robots,webpage CSV,1,0,0,Robots,Nilai CSV langsung; imputasi median train dalam pipeline,Robots,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+IsResponsive,webpage CSV,1,0,0,IsResponsive,Nilai CSV langsung; imputasi median train dalam pipeline,IsResponsive,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfURLRedirect,webpage CSV,1,0,0,NoOfURLRedirect,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfURLRedirect,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfSelfRedirect,webpage CSV,1,0,0,NoOfSelfRedirect,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfSelfRedirect,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasDescription,webpage CSV,1,0,0,HasDescription,Nilai CSV langsung; imputasi median train dalam pipeline,HasDescription,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfPopup,webpage CSV,1,0,0,NoOfPopup,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfPopup,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfiFrame,webpage CSV,1,0,0,NoOfiFrame,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfiFrame,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasExternalFormSubmit,webpage CSV,1,0,0,HasExternalFormSubmit,Nilai CSV langsung; imputasi median train dalam pipeline,HasExternalFormSubmit,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasSocialNet,webpage CSV,1,0,0,HasSocialNet,Nilai CSV langsung; imputasi median train dalam pipeline,HasSocialNet,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasSubmitButton,webpage CSV,1,0,0,HasSubmitButton,Nilai CSV langsung; imputasi median train dalam pipeline,HasSubmitButton,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasHiddenFields,webpage CSV,1,0,0,HasHiddenFields,Nilai CSV langsung; imputasi median train dalam pipeline,HasHiddenFields,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasPasswordField,webpage CSV,1,0,0,HasPasswordField,Nilai CSV langsung; imputasi median train dalam pipeline,HasPasswordField,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+HasCopyrightInfo,webpage CSV,1,0,0,HasCopyrightInfo,Nilai CSV langsung; imputasi median train dalam pipeline,HasCopyrightInfo,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfImage,webpage CSV,1,0,0,NoOfImage,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfImage,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfCSS,webpage CSV,1,0,0,NoOfCSS,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfCSS,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfJS,webpage CSV,1,0,0,NoOfJS,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfJS,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfSelfRef,webpage CSV,1,0,0,NoOfSelfRef,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfSelfRef,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfEmptyRef,webpage CSV,1,0,0,NoOfEmptyRef,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfEmptyRef,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.
+NoOfExternalRef,webpage CSV,1,0,0,NoOfExternalRef,Nilai CSV langsung; imputasi median train dalam pipeline,NoOfExternalRef,N1 cell 2 PAGE; N2 cell 4 dan 6,Definisi upstream rinci belum terverifikasi; tidak diekstrak ulang.

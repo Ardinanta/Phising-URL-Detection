@@ -1,0 +1,241 @@
+{
+  "checks": [
+    {
+      "check": "schema_internal",
+      "status": "PASS",
+      "details": {
+        "rows": 235370,
+        "columns": 42,
+        "lexical": 15,
+        "page": 23
+      }
+    },
+    {
+      "check": "internal_rows_labels",
+      "status": "PASS",
+      "details": "Label positif 1 tepat untuk label asli 0; baris mengikuti urutan deduplikasi keep-first"
+    },
+    {
+      "check": "page_features_integrity",
+      "status": "PASS",
+      "details": "Seluruh 23 kolom dibandingkan dengan CSV deduplikasi"
+    },
+    {
+      "check": "missing_model_inputs",
+      "status": "PASS",
+      "details": "Tidak ada missing pada fitur/target/penanda split aktual"
+    },
+    {
+      "check": "lexical_all_rows",
+      "status": "PASS",
+      "details": "15 fitur dihitung ulang pada seluruh URL unik secara terpisah dari kernel"
+    },
+    {
+      "check": "structure_all_rows",
+      "status": "PASS",
+      "details": "Query nonkosong diprioritaskan, lalu segmen path, lalu akar"
+    },
+    {
+      "check": "unique_stable_ids",
+      "status": "PASS",
+      "details": "SHA-256 UTF-8 teks URL asli unik; tidak mencetak URL mentah"
+    },
+    {
+      "check": "acak_exactly_once",
+      "status": "PASS",
+      "details": "Setiap ID baris teralokasi tepat sekali; tidak ada bagian tidak dikenal/missing"
+    },
+    {
+      "check": "acak_latih_both_classes",
+      "status": "PASS",
+      "details": "Kedua kelas ada"
+    },
+    {
+      "check": "acak_validasi_both_classes",
+      "status": "PASS",
+      "details": "Kedua kelas ada"
+    },
+    {
+      "check": "acak_uji_both_classes",
+      "status": "PASS",
+      "details": "Kedua kelas ada"
+    },
+    {
+      "check": "acak_latih_validasi_disjoint_urls_rows",
+      "status": "PASS",
+      "details": {
+        "url_overlap": 0,
+        "row_overlap": 0
+      }
+    },
+    {
+      "check": "acak_latih_uji_disjoint_urls_rows",
+      "status": "PASS",
+      "details": {
+        "url_overlap": 0,
+        "row_overlap": 0
+      }
+    },
+    {
+      "check": "acak_validasi_uji_disjoint_urls_rows",
+      "status": "PASS",
+      "details": {
+        "url_overlap": 0,
+        "row_overlap": 0
+      }
+    },
+    {
+      "check": "domain_exactly_once",
+      "status": "PASS",
+      "details": "Setiap ID baris teralokasi tepat sekali; tidak ada bagian tidak dikenal/missing"
+    },
+    {
+      "check": "domain_latih_both_classes",
+      "status": "PASS",
+      "details": "Kedua kelas ada"
+    },
+    {
+      "check": "domain_validasi_both_classes",
+      "status": "PASS",
+      "details": "Kedua kelas ada"
+    },
+    {
+      "check": "domain_uji_both_classes",
+      "status": "PASS",
+      "details": "Kedua kelas ada"
+    },
+    {
+      "check": "domain_latih_validasi_disjoint_urls_rows",
+      "status": "PASS",
+      "details": {
+        "url_overlap": 0,
+        "row_overlap": 0
+      }
+    },
+    {
+      "check": "domain_latih_validasi_zero_domains",
+      "status": "PASS",
+      "details": {
+        "domain_overlap": 0
+      }
+    },
+    {
+      "check": "domain_latih_uji_disjoint_urls_rows",
+      "status": "PASS",
+      "details": {
+        "url_overlap": 0,
+        "row_overlap": 0
+      }
+    },
+    {
+      "check": "domain_latih_uji_zero_domains",
+      "status": "PASS",
+      "details": {
+        "domain_overlap": 0
+      }
+    },
+    {
+      "check": "domain_validasi_uji_disjoint_urls_rows",
+      "status": "PASS",
+      "details": {
+        "url_overlap": 0,
+        "row_overlap": 0
+      }
+    },
+    {
+      "check": "domain_validasi_uji_zero_domains",
+      "status": "PASS",
+      "details": {
+        "domain_overlap": 0
+      }
+    },
+    {
+      "check": "independent_summary_matches",
+      "status": "PASS",
+      "details": "Agregat dihitung dari membership dan domain ekstraksi independen"
+    },
+    {
+      "check": "independent_overlap_matches",
+      "status": "PASS",
+      "details": "Irisan dan proporsi dibandingkan artefak notebook"
+    },
+    {
+      "check": "A_B_membership_design",
+      "status": "PASS",
+      "details": "Config N2 cell 6 dan filter N2 cell 4 menggunakan kolom split acak yang sama; notebook 2 tidak dijalankan"
+    },
+    {
+      "check": "B_C_identical_features",
+      "status": "PASS",
+      "details": "Pemeriksaan AST N2 cell 6; 15 fitur identik"
+    },
+    {
+      "check": "manifest_feature_lists",
+      "status": "PASS",
+      "details": "Daftar dan urutan sesuai kode salinan identik"
+    },
+    {
+      "check": "manifest_audit",
+      "status": "PASS",
+      "details": "Dihitung ulang dari CSV lokal"
+    },
+    {
+      "check": "raw_structure_counts",
+      "status": "PASS",
+      "details": "Seluruh baris mentah, termasuk URL berulang, dihitung ulang"
+    },
+    {
+      "check": "historical_files_unchanged",
+      "status": "PASS",
+      "details": {
+        "files": 25,
+        "changed": []
+      }
+    }
+  ],
+  "missing_default_na": {},
+  "literal_empty_values_title_tld": {},
+  "domain_definition": {
+    "tldextract": "5.3.1",
+    "private_suffix": true,
+    "network_suffix_urls": [],
+    "cache_dir": null,
+    "ip_fallback_rows": 606,
+    "unknown_suffix_fallback_rows": 766,
+    "private_suffix_rows": 26790,
+    "normalization": "hostname rstrip dot then IDNA ASCII; top_domain_under_public_suffix or full host"
+  },
+  "warnings_and_errors_in_notebook": [],
+  "historical_membership": "unavailable; no claim of row-wise historical identity",
+  "internal_shape": [
+    235370,
+    42
+  ],
+  "artifact_checksums": {
+    "hasil/audit_struktur_mentah.csv": "cde6d792d8cd93e54e713ebf2c08416d72511b503cfc76fe24258d758db57b4b",
+    "hasil/distribusi_struktur_split.csv": "30d8ab84982147c3a0d1cd8c8c260e2035edee958d1709c4969ccacd6a2f4845",
+    "hasil/fitur_internal.csv.gz": "e7678de14cae2ed296d22d2b2644196af551ae12550dab5170413ce000ea3d8a",
+    "hasil/irisan_domain.csv": "5f41932b271af9e6c429e9ac50e962a3b406f4a5255c9a7ea835c6842aa06835",
+    "hasil/manifest_data.json": "2c1fd89f03e067382c1a9f903219f55ecaa2ae645b948f8503e3889593be9b8b",
+    "hasil/ringkasan_split.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+    "split_membership.csv.gz": "9fa7056edd95982ac00adc3bb4e70cbeac6948296c6998cea318d6ca0fe8c8f6",
+    "independent_split_summary.csv": "81f78474973e62b3fa9112a989aba3730bf8c3c3eef1cadcdeb228bfdb5174be",
+    "independent_overlap.csv": "eeaf53922f4194f722b471459260b0e3d026b677f615abec25e86691db384aee",
+    "missing_values.csv": "a068d25dc356cd803d44d15c79141b5805108b1c94be08724901a02b3fdbd9fa",
+    "01_Audit_dan_Split.executed.ipynb": "9a79b6ec1b1a354dfbc59433c12bbb735590fb5350fc68ec1ad57f6190f8562b"
+  },
+  "closure_checks": {
+    "original_copied_sources_preserved": true,
+    "all_copied_input_checksums_still_match": true,
+    "pip_freeze_matches_lockfile": true,
+    "candidate_na_tokens_case_insensitive": {
+      "TLD": 19,
+      "Title": 5
+    },
+    "companion_errors_corrected": [
+      "newline string SyntaxError",
+      "Windows artifact path KeyError"
+    ],
+    "research_notebook_executions": 1
+  }
+}

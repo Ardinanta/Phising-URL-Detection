@@ -1,0 +1,10 @@
+# Preserve exact public distribution bytes: SHA-256 manifests are byte-based.
+# Do not change attributes for existing historical notebooks or dataset.
+/research/** -text
+/scripts/** -text
+/README.md -text
+/requirements-lock.txt -text
+/.gitignore -text
+/.gitattributes -text
+# Matplotlib emits whitespace in generated SVG path data; retain exact bytes.
+/research/**/figures/*.svg -whitespace

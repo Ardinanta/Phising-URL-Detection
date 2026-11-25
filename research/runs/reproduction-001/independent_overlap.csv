@@ -1,0 +1,7 @@
+split,bagian_1,bagian_2,url_irisan,baris_irisan,domain_irisan,proporsi_baris_bagian_2
+acak,latih,validasi,0,0,2576,0.17954963886135109
+acak,latih,uji,0,0,2581,0.17781680167676883
+acak,validasi,uji,0,0,1184,0.13105421174871126
+domain,latih,validasi,0,0,0,0.0
+domain,latih,uji,0,0,0,0.0
+domain,validasi,uji,0,0,0,0.0

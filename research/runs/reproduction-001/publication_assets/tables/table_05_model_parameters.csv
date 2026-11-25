@@ -1,0 +1,38 @@
+Model,Komponen,Parameter,Nilai
+LR,Estimator (A/B/C),C,1.0
+LR,Estimator (A/B/C),class_weight,None
+LR,Estimator (A/B/C),dual,False
+LR,Estimator (A/B/C),fit_intercept,True
+LR,Estimator (A/B/C),intercept_scaling,1
+LR,Estimator (A/B/C),l1_ratio,0.0
+LR,Estimator (A/B/C),max_iter,1000
+LR,Estimator (A/B/C),n_jobs,None
+LR,Estimator (A/B/C),penalty,deprecated
+LR,Estimator (A/B/C),random_state,42
+LR,Estimator (A/B/C),solver,lbfgs
+LR,Estimator (A/B/C),tol,0.0001
+LR,Estimator (A/B/C),verbose,0
+LR,Estimator (A/B/C),warm_start,False
+LR,Pipeline,Praproses,Imputasi median; StandardScaler
+RF,Estimator (A/B/C),bootstrap,True
+RF,Estimator (A/B/C),ccp_alpha,0.0
+RF,Estimator (A/B/C),class_weight,None
+RF,Estimator (A/B/C),criterion,gini
+RF,Estimator (A/B/C),max_depth,16
+RF,Estimator (A/B/C),max_features,sqrt
+RF,Estimator (A/B/C),max_leaf_nodes,None
+RF,Estimator (A/B/C),max_samples,None
+RF,Estimator (A/B/C),min_impurity_decrease,0.0
+RF,Estimator (A/B/C),min_samples_leaf,3
+RF,Estimator (A/B/C),min_samples_split,2
+RF,Estimator (A/B/C),min_weight_fraction_leaf,0.0
+RF,Estimator (A/B/C),monotonic_cst,None
+RF,Estimator (A/B/C),n_estimators,60
+RF,Estimator (A/B/C),n_jobs,1
+RF,Estimator (A/B/C),oob_score,False
+RF,Estimator (A/B/C),random_state,42
+RF,Estimator (A/B/C),verbose,0
+RF,Estimator (A/B/C),warm_start,False
+RF,Pipeline,Praproses,Imputasi median
+LR/RF,Evaluasi,Threshold,F1 validation maksimum; tie FPR rendah lalu threshold tinggi
+LR/RF,Inferensi,Pengukuran,Batch1024; warm-up1; median5; thread1

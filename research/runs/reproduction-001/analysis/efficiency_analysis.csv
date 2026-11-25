@@ -1,0 +1,7 @@
+model,skenario,training_seconds,uji_batch_ms,batch_size,RF_minus_LR_training_seconds,RF_over_LR_training_ratio,RF_minus_LR_inference_ms,RF_over_LR_inference_ratio,measurement
+LR,A,2.39619300000777,4.1046999976970255,1024,14.88930799998343,7.213734870244237,6.739200005540624,2.641825227013352,"pipeline.fit seconds; inference median5, warmup1, batch1024, thread1; excludes URL extraction and page retrieval"
+LR,B,0.8504768999991938,2.7464000013424084,1024,5.150020400003996,7.055450065732388,7.229599999845959,3.6323914929770664,"pipeline.fit seconds; inference median5, warmup1, batch1024, thread1; excludes URL extraction and page retrieval"
+LR,C,1.1082669000024907,2.5334999954793602,1024,4.7542236000008415,5.289782181521578,6.89609999244567,3.721965662029089,"pipeline.fit seconds; inference median5, warmup1, batch1024, thread1; excludes URL extraction and page retrieval"
+RF,A,17.2855009999912,10.84390000323765,1024,14.88930799998343,7.213734870244237,6.739200005540624,2.641825227013352,"pipeline.fit seconds; inference median5, warmup1, batch1024, thread1; excludes URL extraction and page retrieval"
+RF,B,6.00049730000319,9.976000001188368,1024,5.150020400003996,7.055450065732388,7.229599999845959,3.6323914929770664,"pipeline.fit seconds; inference median5, warmup1, batch1024, thread1; excludes URL extraction and page retrieval"
+RF,C,5.862490500003332,9.42959998792503,1024,4.7542236000008415,5.289782181521578,6.89609999244567,3.721965662029089,"pipeline.fit seconds; inference median5, warmup1, batch1024, thread1; excludes URL extraction and page retrieval"
