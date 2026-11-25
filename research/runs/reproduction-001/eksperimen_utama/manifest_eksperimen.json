@@ -1,0 +1,83 @@
+{
+  "status": "completed",
+  "baseline_approval": "pending team",
+  "run_id": "reproduction-001",
+  "seed": 42,
+  "params": {
+    "LR": {
+      "max_iter": 1000,
+      "random_state": 42
+    },
+    "RF": {
+      "n_estimators": 60,
+      "max_depth": 16,
+      "min_samples_leaf": 3,
+      "random_state": 42,
+      "n_jobs": 1
+    }
+  },
+  "inputs": {
+    "status": "PASS",
+    "training_started": false,
+    "approval": "pending team; user training authorization required",
+    "shape": [
+      235370,
+      42
+    ],
+    "cache_sha256": "e7678de14cae2ed296d22d2b2644196af551ae12550dab5170413ce000ea3d8a",
+    "membership_sha256": "9fa7056edd95982ac00adc3bb4e70cbeac6948296c6998cea318d6ca0fe8c8f6",
+    "lock_sha256": "b49bafc8e76d16feb0e8b3102873aa66b0ceb779eeda2177d2c8304a9276ceea",
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "packages": {
+      "numpy": "2.5.2",
+      "pandas": "3.0.5",
+      "scikit-learn": "1.9.1",
+      "matplotlib": "3.11.1",
+      "tldextract": "5.3.1",
+      "threadpoolctl": "3.8.0",
+      "ipykernel": "7.4.0"
+    },
+    "feature_counts": [
+      38,
+      15,
+      15
+    ],
+    "C_domain_overlap": 0
+  },
+  "python": "3.13.0",
+  "cpu": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+  "os": "Windows-11-10.0.26200-SP0",
+  "timing": "batch1024; warmup1; median5; threads1; pipeline preprocessing+predict_proba; excludes URL extraction and page retrieval",
+  "models_saved": false,
+  "model_storage_reason": "Optional; full parameters and predictions retained",
+  "membership_hashes": {
+    "A/latih": "6466fffd886fe66dee33892b861b17a923d51c1814057c76c078a22626445040",
+    "A/validasi": "40fdee955927fdbbbab1cc34003c893cc46be1017b785d9684e847d96b4479ce",
+    "A/uji": "14927d3df39070c9a576c6481ecc639bdbab900d166ad50ef94c14e714500a2a",
+    "B/latih": "6466fffd886fe66dee33892b861b17a923d51c1814057c76c078a22626445040",
+    "B/validasi": "40fdee955927fdbbbab1cc34003c893cc46be1017b785d9684e847d96b4479ce",
+    "B/uji": "14927d3df39070c9a576c6481ecc639bdbab900d166ad50ef94c14e714500a2a",
+    "C/latih": "0b4262d894a4a94576926ad8df92ce26e2f31fdf23d7b52aab4e2fd3685459b2",
+    "C/validasi": "e9d09bf516fed8dc22a8963896433f92f09b2ebe622709ac53455f95ea406aad",
+    "C/uji": "94affcb2b3bcde87db262ba37318fb74917f25e232183118b8bf73ed7387bb82"
+  },
+  "authorization": {
+    "authorized": true,
+    "scope": [
+      "LR/A",
+      "LR/B",
+      "LR/C",
+      "RF/A",
+      "RF/B",
+      "RF/C"
+    ],
+    "basis": "Explicit user message authorizing historical reproduction and activation of guard",
+    "baseline_team_approval": "pending; not implied by user training authorization",
+    "recorded_at": "2026-11-25T17:45:34.043557+07:00",
+    "guard": "reproduction-001-six-main"
+  },
+  "ram_bytes": 7817785344,
+  "runner_sha256": "93dd1c4e41eb34a69c43ba9fa169809067ed5a55d0d50a93b9227af1e97c00b8",
+  "executed_notebook_sha256": "f2a4959504bd636cdedb5126c497a4e2228ed62ba2913c3a03a444a43b02aa7d",
+  "host_validation_checks": 138
+}

@@ -1,0 +1,12 @@
+{
+  "runner_all_code_parses": true,
+  "training_cells_executed": 0,
+  "fresh_kernel_interpreter_and_cwd": "PASS",
+  "authorization_guard": "PASS: blocks before fit",
+  "protected_files": 47,
+  "protected_files_changed": [],
+  "new_notebook_sha256": "93dd1c4e41eb34a69c43ba9fa169809067ed5a55d0d50a93b9227af1e97c00b8",
+  "original_model_threshold_metrics_logic": "choose_threshold and metrics AST identical; fit preserves unweighted pipeline and timing, adds train timer/classes assertion and return artifacts",
+  "baseline_approval": "pending team",
+  "training_authorization": "not yet provided"
+}

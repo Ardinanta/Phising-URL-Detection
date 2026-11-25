@@ -1,0 +1,121 @@
+{
+  "run_id": "reproduction-001",
+  "created_at": "2026-11-25T17:26:58.710883+07:00",
+  "purpose": "Reproduce historical dataset audit and splitting only; no training; baseline pending team approval",
+  "baseline_approval": "MENUNGGU PERSETUJUAN TIM",
+  "branch": "develop",
+  "commit": "d80117b50f179cfefe91f1c138706264a2934cc7",
+  "python": "3.13.0",
+  "executable": "[REPOSITORY_ROOT]\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.1",
+    "tldextract": "5.3.1",
+    "threadpoolctl": "3.8.0",
+    "ipykernel": "7.4.0"
+  },
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+  "ram_bytes": 7817785344,
+  "working_directory": "[REPOSITORY_ROOT]\\runs\\reproduction-001",
+  "output_directory": "[REPOSITORY_ROOT]\\runs\\reproduction-001\\hasil",
+  "seed": 42,
+  "input_checksums": {
+    "01_Audit_dan_Split.ipynb": "eb5a99743ea4493cff1fa40765cd19686a0ddae12933f190e43884cd424db881",
+    "02_Eksperimen_dan_Evaluasi.ipynb": "34dc9178350b9ef1b93f6ea549d916313dd83a8d94d8260cbf0ce3cdbe69895b",
+    "Dataset/PhiUSIIL_Phishing_URL_Dataset.csv": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+    "requirements-lock.txt": "b49bafc8e76d16feb0e8b3102873aa66b0ceb779eeda2177d2c8304a9276ceea"
+  },
+  "status": "execution_success",
+  "historical_input_used": false,
+  "kernel_preflight": {
+    "cwd": "[REPOSITORY_ROOT]\\runs\\reproduction-001",
+    "executable": "[REPOSITORY_ROOT]\\.venv\\Scripts\\python.exe",
+    "output": "[REPOSITORY_ROOT]\\runs\\reproduction-001\\hasil",
+    "output_initially_empty": true
+  },
+  "cells": [
+    {
+      "cell": 1,
+      "type": "markdown",
+      "started_at": "2026-11-25T17:27:01.183675+07:00",
+      "status": "MARKDOWN preserved"
+    },
+    {
+      "cell": 2,
+      "type": "code",
+      "started_at": "2026-11-25T17:27:01.184859+07:00",
+      "status": "PASS",
+      "seconds": 6.55,
+      "execution_count": 2
+    },
+    {
+      "cell": 3,
+      "type": "markdown",
+      "started_at": "2026-11-25T17:27:07.736787+07:00",
+      "status": "MARKDOWN preserved"
+    },
+    {
+      "cell": 4,
+      "type": "code",
+      "started_at": "2026-11-25T17:27:07.737855+07:00",
+      "status": "PASS",
+      "seconds": 10.604,
+      "execution_count": 3
+    },
+    {
+      "cell": 5,
+      "type": "markdown",
+      "started_at": "2026-11-25T17:27:18.344618+07:00",
+      "status": "MARKDOWN preserved"
+    },
+    {
+      "cell": 6,
+      "type": "code",
+      "started_at": "2026-11-25T17:27:18.345972+07:00",
+      "status": "PASS",
+      "seconds": 19.668,
+      "execution_count": 4
+    }
+  ],
+  "started_at": "2026-11-25T17:27:01.182862+07:00",
+  "completed_at": "2026-11-25T17:27:38.020341+07:00",
+  "historical_integrity": {
+    "files_checked": 25,
+    "changed": []
+  },
+  "validation_status": "PASS",
+  "validation_completed_at": "2026-11-25T17:31:02.230566+07:00",
+  "internal_feature_sha256": "e7678de14cae2ed296d22d2b2644196af551ae12550dab5170413ce000ea3d8a",
+  "validation_files": [
+    "validation_results.json",
+    "comparison.csv",
+    "split_membership.csv.gz",
+    "artifact_checksums.json"
+  ],
+  "stage5": {
+    "status": "completed",
+    "completed_at": "2026-11-25T17:47:44.937476+07:00",
+    "authorization": {
+      "authorized": true,
+      "scope": [
+        "LR/A",
+        "LR/B",
+        "LR/C",
+        "RF/A",
+        "RF/B",
+        "RF/C"
+      ],
+      "basis": "Explicit user message authorizing historical reproduction and activation of guard",
+      "baseline_team_approval": "pending; not implied by user training authorization",
+      "recorded_at": "2026-11-25T17:45:34.043557+07:00",
+      "guard": "reproduction-001-six-main"
+    },
+    "output_directory": "[REPOSITORY_ROOT]\\runs\\reproduction-001\\eksperimen_utama",
+    "executed_notebook": "02_Eksperimen_Utama.executed.ipynb",
+    "host_validation_checks": 138,
+    "baseline_team_approval": "pending"
+  }
+}

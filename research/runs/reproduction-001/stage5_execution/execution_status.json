@@ -1,0 +1,72 @@
+{
+  "started_at": "2026-11-25T17:45:41.572915+07:00",
+  "status": "completed",
+  "authorization": {
+    "authorized": true,
+    "scope": [
+      "LR/A",
+      "LR/B",
+      "LR/C",
+      "RF/A",
+      "RF/B",
+      "RF/C"
+    ],
+    "basis": "Explicit user message authorizing historical reproduction and activation of guard",
+    "baseline_team_approval": "pending; not implied by user training authorization",
+    "recorded_at": "2026-11-25T17:45:34.043557+07:00",
+    "guard": "reproduction-001-six-main"
+  },
+  "runner_sha256": "93dd1c4e41eb34a69c43ba9fa169809067ed5a55d0d50a93b9227af1e97c00b8",
+  "cells": [
+    {
+      "cell": 1,
+      "type": "markdown",
+      "started_at": "2026-11-25T17:45:43.682975+07:00",
+      "status": "Markdown preserved"
+    },
+    {
+      "cell": 2,
+      "type": "code",
+      "started_at": "2026-11-25T17:45:43.687383+07:00",
+      "status": "ok",
+      "seconds": 6.253489900002023,
+      "execution_count": 1
+    },
+    {
+      "cell": 3,
+      "type": "code",
+      "started_at": "2026-11-25T17:45:49.944443+07:00",
+      "status": "ok",
+      "seconds": 21.924419200004195,
+      "execution_count": 2
+    },
+    {
+      "cell": 4,
+      "type": "code",
+      "started_at": "2026-11-25T17:46:11.875517+07:00",
+      "status": "ok",
+      "seconds": 0.042272499995306134,
+      "execution_count": 3
+    },
+    {
+      "cell": 5,
+      "type": "code",
+      "started_at": "2026-11-25T17:46:11.921897+07:00",
+      "status": "ok",
+      "seconds": 41.30766050000966,
+      "execution_count": 4
+    },
+    {
+      "cell": 6,
+      "type": "code",
+      "started_at": "2026-11-25T17:46:53.233926+07:00",
+      "status": "ok",
+      "seconds": 2.1138574999931734,
+      "execution_count": 5
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-11-25T17:46:55.479120+07:00",
+  "integrity_changed": [],
+  "unexpected_changes": []
+}
