@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="635.4pt" height="298.8pt" viewBox="0 0 635.4 298.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-25T18:42:35.442469</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 298.8 
+L 635.4 298.8 
+L 635.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.283 145.7964 
+L 198.009 145.7964 
+Q 205.3746 145.7964 205.3746 142.47 
+L 205.3746 45.45 
+Q 205.3746 42.1236 198.009 42.1236 
+L 32.283 42.1236 
+Q 24.9174 42.1236 24.9174 45.45 
+L 24.9174 142.47 
+Q 24.9174 145.7964 32.283 145.7964 
+z
+" clip-path="url(#pb5f4ccdc3a)" style="fill: #f2f4f6; stroke: #52616b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 234.837 145.7964 
+L 400.563 145.7964 
+Q 407.9286 145.7964 407.9286 142.47 
+L 407.9286 45.45 
+Q 407.9286 42.1236 400.563 42.1236 
+L 234.837 42.1236 
+Q 227.4714 42.1236 227.4714 45.45 
+L 227.4714 142.47 
+Q 227.4714 145.7964 234.837 145.7964 
+z
+" clip-path="url(#pb5f4ccdc3a)" style="fill: #f2f4f6; stroke: #52616b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 437.391 145.7964 
+L 603.117 145.7964 
+Q 610.4826 145.7964 610.4826 142.47 
+L 610.4826 45.45 
+Q 610.4826 42.1236 603.117 42.1236 
+L 437.391 42.1236 
+Q 430.0254 42.1236 430.0254 45.45 
+L 430.0254 142.47 
+Q 430.0254 145.7964 437.391 145.7964 
+z
+" clip-path="url(#pb5f4ccdc3a)" style="fill: #f2f4f6; stroke: #52616b; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(111.725688 72.552578)">A</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(115.146 84.554531)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(77.669438 96.557266)">38 fitur terpilih</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(51.470219 108.56)">15 leksikal + 23 halaman</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(55.967875 120.562734)">Split acak terstratifikasi</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(314.269531 78.553945)">B</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(317.7 90.555898)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(279.210156 102.558633)">15 fitur leksikal</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(249.184375 114.561367)">Split acak identik dengan A</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(516.762594 78.553945)">C</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(520.254 90.555898)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(458.102438 102.558633)">15 fitur leksikal identik B</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(465.268063 114.561367)">Split domain terdaftar</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 135.560263 168.804 
+Q 216.421331 168.804 296.052561 168.804 
+" style="fill: none; stroke: #53616b; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 292.052561 166.804 
+L 296.052561 168.804 
+L 292.052561 170.804 
+" style="fill: none; stroke: #53616b; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="216.423" y="188.208" transform="rotate(-0 216.423 188.208)">B − A: cakupan fitur</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 338.114263 168.804 
+Q 418.975331 168.804 498.606561 168.804 
+" style="fill: none; stroke: #53616b; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 494.606561 166.804 
+L 498.606561 168.804 
+L 494.606561 170.804 
+" style="fill: none; stroke: #53616b; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="418.977" y="188.208" transform="rotate(-0 418.977 188.208)">C − B: protokol split</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="317.7" y="232.56" transform="rotate(-0 317.7 232.56)">A/B: membership train, validation, test sama</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="317.7" y="260.28" transform="rotate(-0 317.7 260.28)">B/C: fitur sama; membership dan komposisi test berbeda</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb5f4ccdc3a">
+   <rect x="10.8" y="10.8" width="613.8" height="277.2"/>
+  </clipPath>
+ </defs>
+</svg>
