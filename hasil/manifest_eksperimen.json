@@ -1,0 +1,29 @@
+{
+  "model": {
+    "LR": {
+      "max_iter": 1000,
+      "random_state": 42
+    },
+    "RF": {
+      "n_estimators": 60,
+      "max_depth": 16,
+      "min_samples_leaf": 3,
+      "random_state": 42,
+      "n_jobs": 1
+    }
+  },
+  "batas_fpr_validasi": 0.01,
+  "dukungan_recall_min": 30,
+  "batch": 1024,
+  "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.14.4",
+  "seed": 42,
+  "sha256_data": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+  "paket": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.1"
+  }
+}
